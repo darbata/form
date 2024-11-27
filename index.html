@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <img
+        class="hero-background"
+        src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      />
+      <div class="logo">
+        <img
+          class="logo-icon"
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+        />
+        <div class="logo-text">ODIN</div>
+      </div>
+      <p class="credit">
+        Photo by
+        <a
+          href="https://unsplash.com/@haliewestphoto"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Halie West</a
+        >
+        on
+        <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+    <div class="content-section">
+      <div class="information">
+        <p class="marketing">
+          This is not a real online service! You know you need something like
+          this in your life to help you realise your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p class="call-to-action">You <i>know</i> what to do</p>
+      </div>
+      <div class="form-section">
+        <h2 class="form-header">Let's do this!</h2>
+        <form action="example.com/path" method="post" class="form">
+          <fieldset>
+            <div class="form-group">
+              <label for="first-name">First Name:</label>
+              <input id="first-name" type="text" name="first-name" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name:</label>
+              <input id="last-name" type="text" name="last-name" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="form-group">
+              <label for="user-email">Email:</label>
+              <input
+                id="user-email"
+                type="email"
+                name="user-email"
+                placeholder="you@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone-number">Phone Number:</label>
+              <input type="tel" id="phone-number" name="phone-number" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="form-group">
+              <label for="user-password">Password</label>
+              <input type="password" id="user-password" name="user-password" />
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+              />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="account">
+        <button class="create-acc-btn">Create Account</button>
+        <p>
+          Already have an account?
+          <a class="log-in">Log in</a>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
